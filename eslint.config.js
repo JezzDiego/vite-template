@@ -196,14 +196,7 @@ export default defineConfig([
 			"unicorn/no-unused-properties": "error",
 			"unicorn/expiring-todo-comments": "off",
 			"react/jsx-uses-react": "off",
-			"react/react-in-jsx-scope": "off",
-
-			"react/no-unknown-property": [
-				"error",
-				{
-					ignore: ["css"]
-				}
-			]
+			"react/react-in-jsx-scope": "off"
 		}
 	},
 	{
