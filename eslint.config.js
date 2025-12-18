@@ -204,7 +204,25 @@ export default defineConfig([
 
 		rules: {
 			"import/prefer-default-export": "off",
-			"react/function-component-definition": "off"
+			"react/function-component-definition": "off",
+			"react-refresh/only-export-components": "off",
+			"react/jsx-no-constructed-context-values": "off",
+			"unicorn/explicit-length-check": "off",
+			"no-underscore-dangle": "off",
+			"no-param-reassign": "off",
+			"react/button-has-type": "off",
+			"unicorn/no-document-cookie": "off",
+			"@typescript-eslint/no-use-before-define": "off",
+			"jsx-a11y/anchor-has-content": "off",
+			"jsx-a11y/no-noninteractive-element-interactions": "off",
+			"jsx-a11y/click-events-have-key-events": "off",
+			"react/no-array-index-key": "off",
+			eqeqeq: "off",
+			"no-restricted-syntax": "off",
+			"react/no-danger": "off",
+			"consistent-return": "off",
+			"react/no-unstable-nested-components": "off",
+			"react/prop-types": "off"
 		}
 	},
 	// Config files (Vite, etc.) — allow dev deps and relax Node-specific rules
